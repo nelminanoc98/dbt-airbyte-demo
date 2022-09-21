@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: customers
+  - name: categories
     description: "Categories Model"
     columns:
       - name: category_id
