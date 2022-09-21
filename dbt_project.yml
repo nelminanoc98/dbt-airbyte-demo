@@ -31,6 +31,6 @@ clean-targets: # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   airbyte_demo:
-    entities:
+    nw_core:
       +enabled: true
       +materialized: view
