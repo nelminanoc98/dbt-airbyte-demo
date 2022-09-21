@@ -35,3 +35,7 @@ models:
       +tags: "core"
       +enabled: true
       +materialized: view
+    gsheet:
+      +tags: "gsheet"
+      +enabled: true
+      +materialized: view
